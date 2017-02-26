@@ -3,9 +3,10 @@
   http://kangrace-test.apigee.net/assignment2
   This url shows an error saying "api.usergrid.com is deprecated"
   
- The postman tests were confusing
+For postman,
  I wasn't sure how to test the different urls with /gets, /posts, etc
  I did it separately and it worked, but I didn't know about the tests.
+ I added the postman file anyways.
   
   
  
