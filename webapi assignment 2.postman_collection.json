@@ -1,0 +1,32 @@
+{
+	"id": "a20158f0-b851-72e1-5585-e818c5447469",
+	"name": "webapi assignment 2",
+	"description": "",
+	"order": [
+		"3cad321f-9d57-00fc-f0ae-5986a806f694"
+	],
+	"folders": [],
+	"timestamp": 1488086062354,
+	"owner": "1534123",
+	"public": false,
+	"requests": [
+		{
+			"id": "3cad321f-9d57-00fc-f0ae-5986a806f694",
+			"headers": "",
+			"url": "http://localhost:3000/gets",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code == 200;\n\npostman.setGlobalVariable(\"name\", \"value\");\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1488091565054,
+			"name": "http://localhost:3000/",
+			"description": "",
+			"collectionId": "a20158f0-b851-72e1-5585-e818c5447469",
+			"responses": []
+		}
+	]
+}
